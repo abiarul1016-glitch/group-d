@@ -4,7 +4,7 @@ A better group generator—random, but customized.
 
 ---
 
-[![meet group'd](https://img.youtube.com/vi/Smu0lYzUtLI/maxresdefault.jpg)](https://www.youtube.com)
+[![meet group'd](https://img.youtube.com/vi/Smu0lYzUtLI/maxresdefault.jpg)](https://www.youtube.com/watch?v=Smu0lYzUtLI)
 
 </div>
 
