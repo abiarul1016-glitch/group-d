@@ -9,10 +9,10 @@ A better group generator—still random, but customized.
 </div>
 
 ## 🏆 Achievements
+
 > [!IMPORTANT]
 > **MathHacks 3rd Place Winner**  
 > Recognized for its unique approach to balanced randomization and user-friendly interface.
-
 
 ---
 
@@ -21,17 +21,11 @@ A better group generator—still random, but customized.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-</div>
-
----
-
 ## What is it?
 
 Teachers spend way too much time manually splitting students into groups — trying to remember who works well together, who absolutely shouldn't be paired, and making sure groups are balanced. **group'd** automates all of that.
 
 Paste your class list, define your constraints, and the algorithm runs 5,000 iterations to find the optimal arrangement in seconds.
-
----
 
 ## Features
 
@@ -40,8 +34,6 @@ Paste your class list, define your constraints, and the algorithm runs 5,000 ite
 - **Cryptex animation** — satisfying lock-cracking animation while groups are generated
 - **Early exit** — algorithm stops immediately when a perfect score of 0 is reached
 - **Responsive UI** — works on desktop and mobile
-
----
 
 ## How it works
 
@@ -55,19 +47,15 @@ The core is a randomised optimisation algorithm:
 
 The scoring intentionally punishes "not together" violations more harshly (50 vs 10), since keeping conflicting students apart is more important than guaranteeing preferred pairings.
 
----
-
 ## Tech stack
 
 The algorithm was originally written in Python and later ported to JavaScript so the app runs entirely in the browser — no backend or server needed.
 
-| Layer | Technology |
-|---|---|
-| UI framework | React (Vite) |
-| Styling | Inline CSS with CSS keyframe animations |
-| Algorithm | Vanilla JavaScript (ported from Python) |
-
----
+| Layer        | Technology                              |
+| ------------ | --------------------------------------- |
+| UI framework | React (Vite)                            |
+| Styling      | Inline CSS with CSS keyframe animations |
+| Algorithm    | Vanilla JavaScript (ported from Python) |
 
 ## Running locally
 
@@ -85,8 +73,6 @@ npm run dev
 
 Then open `http://localhost:5173` in your browser.
 
----
-
 ## Original Python version
 
 The algorithm was first built as a CLI tool in Python. You can still run it directly:
@@ -96,8 +82,6 @@ python groupd.py students.txt
 ```
 
 Where `students.txt` is a plain text file with one student name per line.
-
----
 
 ## What's next
 
